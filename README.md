@@ -38,20 +38,20 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 ### Interview Practice Questions
 
 1. What are three (3) syntax difference between HTML and JSX?
-
+One of the differences is that attribute names in html are not camelCase like they are in JSX, instead written in lowercase letters. Rendering variables in JSX will require you to wrap them in curly braces `{}` which isnt necessarry in HTML. Inline styling in HTML is also different than JSX, in HTML, styles are typically defined using the `style` attribute and a string of CSS, in JSX, styles are defined using a JSX object.
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
-
-3. What is the difference between state values and props in React?
-
+Yarn is a package manager for JSX and the primary files that are modified when run are `node_modules/`, `yarn.lock` and may also modify `package.json` if updates are needed are new dependancies are added. 
+3. What is the difference between state values and props in React? 
+ State is used for managing internal component data that may change over time, and it is mutable. Props are used for passing data from parent to child components, and they are immutable.
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
 
 ### Looking Ahead: Terms for Next Unit
 
-1. Object-oriented programming:
+1. Object-oriented programming:"Object-oriented programming, often referred to as OOP, is a programming paradigm that was created to deal with the complexity of large software systems. Programmers found out very early on that as applications grew in complexity and size, they became very difficult to maintain. One small change at any point in the program would trigger a ripple effect of errors due to dependencies throughout the entire program.Programmers needed a way to create containers for data that could be changed and manipulated without affecting the entire program. They needed a way to section off areas of code that performed certain procedures so that their programs could become the interaction of many small parts, as opposed to one massive blob of dependency."
 
-2. Ruby:
+2. Ruby:Ruby is an object-oriented language. Ruby is so object-oriented that a common Ruby mantra is: "Everything is an object."Objects are the intersection of data and behavior. The data is information stored in variables and the behavior are functions that belong to the object (methods). A method is a set of instructions saying what an object should do in response to a particular prompt.
 
-3. Ruby Hashes:
+3. Ruby Hashes:A Ruby hash is a dictionary-like container for unique keys and their corresponding values. As is common in programming, there are many ways to define the keys and values in a hash.
 
 ---
 
